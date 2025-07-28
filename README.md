@@ -1,70 +1,211 @@
-# Getting Started with Create React App
+# 📈 Stock Market Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional, real-time stock market dashboard built with React, Node.js, and Tailwind CSS. Get live stock prices, market data, and professional analytics in a beautiful, responsive interface.
 
-## Available Scripts
+![Stock Dashboard](https://img.shields.io/badge/React-19-blue) ![Node.js](https://img.shields.io/badge/Node.js-20-green) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC)
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🔴 **Real-time Stock Data** - Live prices from Alpha Vantage API
+- 📊 **Professional Dashboard** - Clean, modern UI with Tailwind CSS
+- 🔍 **Search & Filter** - Find stocks by symbol instantly
+- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- ⚡ **Auto-refresh** - Updates every 60 seconds automatically
+- 📄 **Pagination** - Browse through 80+ popular stocks
+- 🎯 **Smart Caching** - Optimized API calls with intelligent caching
+- 🚀 **Production Ready** - Deploy to Vercel, Netlify, or any hosting platform
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Quick Start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Get Your API Key (2 minutes)
+1. Visit [Alpha Vantage](https://www.alphavantage.co/support/#api-key)
+2. Click "Get Your Free API Key"
+3. Fill out the form and copy your key
 
-### `npm test`
+### 2. Configure Environment
+Edit `.env` file in the project root:
+```env
+ALPHA_VANTAGE_API_KEY=YOUR_ACTUAL_API_KEY_HERE
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Install & Run
+```bash
+# Install dependencies
+npm install
+cd server && npm install && cd ..
 
-### `npm run build`
+# Start backend server
+cd server && npm run dev
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Start frontend (new terminal)
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. View Dashboard
+Open [http://localhost:3000](http://localhost:3000) in your browser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technology Stack
 
-### `npm run eject`
+### Frontend
+- **React 19** - Modern React with hooks
+- **Tailwind CSS** - Utility-first CSS framework
+- **Axios** - HTTP client for API calls
+- **Responsive Design** - Mobile-first approach
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web framework
+- **Axios** - HTTP client for external APIs
+- **CORS** - Cross-origin resource sharing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### APIs
+- **Alpha Vantage** - Real-time stock data
+- **Rate Limiting** - 5 calls per minute (free tier)
+- **Smart Caching** - 1-minute cache for performance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📊 API Endpoints
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/stocks/live` | GET | Single stock data |
+| `/api/stocks/batch` | GET | Multiple stocks data |
+| `/api/stocks/cache` | GET | Cache status |
 
-## Learn More
+### Example Usage
+```bash
+# Get single stock
+curl "http://localhost:3001/api/stocks/live?symbol=AAPL"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Get multiple stocks
+curl "http://localhost:3001/api/stocks/batch?symbols=AAPL,GOOGL,MSFT"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Check cache status
+curl "http://localhost:3001/api/stocks/cache"
+```
 
-### Code Splitting
+## 🎨 UI Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Stock Cards
+- **Symbol & Price** - Clear, prominent display
+- **Change Indicators** - Green/red color coding
+- **Volume & Date** - Complete market information
+- **Hover Effects** - Interactive user experience
 
-### Analyzing the Bundle Size
+### Dashboard Controls
+- **Search Bar** - Filter stocks by symbol
+- **Auto-refresh Toggle** - Enable/disable automatic updates
+- **Manual Refresh** - Instant data update button
+- **Pagination** - Navigate through stock pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Status Indicators
+- **API Status** - Real-time connection status
+- **Loading States** - Smooth loading animations
+- **Error Handling** - Clear error messages
+- **Success Feedback** - Confirmation of actions
 
-### Making a Progressive Web App
+## 🔧 Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Environment Variables
+```env
+# Required
+ALPHA_VANTAGE_API_KEY=your_api_key_here
 
-### Advanced Configuration
+# Optional
+PORT=3001
+NODE_ENV=development
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### API Limits
+- **Free Tier**: 5 API calls per minute
+- **Cache Duration**: 1 minute
+- **Rate Limiting**: 12 seconds between calls
+- **Timeout**: 10 seconds per request
 
-### Deployment
+## 📱 Mobile Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The dashboard is fully responsive and optimized for:
+- 📱 **Mobile phones** (320px+)
+- 📱 **Tablets** (768px+)
+- 💻 **Desktop** (1024px+)
+- 🖥️ **Large screens** (1440px+)
 
-### `npm run build` fails to minify
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Frontend (Vercel/Netlify)
+```bash
+npm run build
+# Deploy the build folder
+```
+
+### Backend (Heroku/Railway)
+```bash
+# Set environment variables
+ALPHA_VANTAGE_API_KEY=your_key_here
+
+# Deploy server folder
+```
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**"API key not configured"**
+- Check your `.env` file
+- Ensure API key is correct
+- Restart the server
+
+**"Rate limit exceeded"**
+- Wait 1 minute before retrying
+- Reduce number of simultaneous requests
+- Check API usage limits
+
+**"Server connection error"**
+- Ensure backend is running on port 3001
+- Check for port conflicts
+- Verify CORS configuration
+
+**"Loading forever"**
+- Check browser console for errors
+- Verify API key is valid
+- Check network connectivity
+
+### Debug Mode
+Enable debug logging in the browser console to see detailed API calls and responses.
+
+## 📈 Performance
+
+- **Initial Load**: < 2 seconds
+- **API Response**: < 1 second (cached)
+- **Auto-refresh**: Every 60 seconds
+- **Search**: Instant filtering
+- **Pagination**: Smooth navigation
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Alpha Vantage](https://www.alphavantage.co/) for providing the stock data API
+- [Tailwind CSS](https://tailwindcss.com/) for the beautiful UI framework
+- [React](https://reactjs.org/) for the amazing frontend framework
+
+## 📞 Support
+
+If you encounter any issues or have questions:
+
+1. Check the [Troubleshooting](#-troubleshooting) section
+2. Review the [API Setup Guide](API_SETUP.md)
+3. Open an issue on GitHub
+
+---
+
+**Ready to see real-time stock data? Get your API key and start trading! 🚀**

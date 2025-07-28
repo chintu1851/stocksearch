@@ -4,12 +4,15 @@ const cors = require('cors');
 const pool = require('./config/db.js');
 
 const stockApiRoutes = require('./routes/stockApiRoutes.js');
-const stockBatchRoutes = require('./routes/stockApiRoutes.js');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000', // Your React frontend URL
+  methods: ['GET', 'POST'],
+  credentials: true,
+}));
 app.use(express.json());
 
 app.get('/', async (req, res) => {
@@ -21,15 +24,9 @@ app.get('/', async (req, res) => {
     res.status(500).send('Database query error');
   }
 });
-app.use(cors({
-  origin: 'http://localhost:3001', // Your React frontend URL
-  methods: ['GET', 'POST'],
-  credentials: true,
-}));
 
 // Routes
-app.use('/api/stocks', stockApiRoutes);      // Single stock endpoint
-app.use('/api/stocks', stockBatchRoutes);    // Batch stocks endpoint
+app.use('/api/stocks', stockApiRoutes);
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
