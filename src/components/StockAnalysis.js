@@ -25,7 +25,7 @@ const StockAnalysis = () => {
   const { data: stockData, isLoading: stockLoading } = useQuery(
     ['stockData', selectedStock],
     async () => {
-      const response = await axios.get(`http://localhost:3001/api/stocks/live?symbol=${selectedStock}`);
+              const response = await axios.get(`http://localhost:3001/api/stocks/${selectedStock}`);
       return response.data;
     },
     {
