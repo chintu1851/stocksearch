@@ -158,3 +158,11 @@
 {"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-01T19:36:27.390Z"}
 {"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-01T19:36:27.946Z"}
 {"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-01T19:41:40.591Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:02:36.500Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:03:32.668Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:03:46.282Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:04:19.685Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:05:18.986Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:05:54.967Z"}
+{"level":"info","message":"Batch stock data fetched for 1 symbols","timestamp":"2025-08-07T13:05:54.967Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:05:55.064Z"}
