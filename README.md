@@ -1,211 +1,370 @@
-# 📈 Stock Market Dashboard
+# 📈 Stock Search Pro - Professional Stock Market Platform
 
-A professional, real-time stock market dashboard built with React, Node.js, and Tailwind CSS. Get live stock prices, market data, and professional analytics in a beautiful, responsive interface.
+A comprehensive, real-time stock market platform built with React, Node.js, and PostgreSQL. Features live data, portfolio management, technical analysis, and professional-grade UI/UX.
 
-![Stock Dashboard](https://img.shields.io/badge/React-19-blue) ![Node.js](https://img.shields.io/badge/Node.js-20-green) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC)
+## 🚀 Live Demo
+
+**Frontend**: http://localhost:3000  
+**Backend API**: http://localhost:3001  
+**Health Check**: http://localhost:3001/api/health
 
 ## ✨ Features
 
-- 🔴 **Real-time Stock Data** - Live prices from Alpha Vantage API
-- 📊 **Professional Dashboard** - Clean, modern UI with Tailwind CSS
-- 🔍 **Search & Filter** - Find stocks by symbol instantly
-- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
-- ⚡ **Auto-refresh** - Updates every 60 seconds automatically
-- 📄 **Pagination** - Browse through 80+ popular stocks
-- 🎯 **Smart Caching** - Optimized API calls with intelligent caching
-- 🚀 **Production Ready** - Deploy to Vercel, Netlify, or any hosting platform
+### 📊 Real-Time Stock Data
+- Live price updates from Polygon API
+- Real-time charts with technical indicators
+- Batch stock loading (20 stocks simultaneously)
+- Intelligent caching system
+- Auto-refresh every 30 seconds
 
-## 🚀 Quick Start
+### 🎯 Market Analysis
+- Market overview with major indices
+- Sector performance visualization
+- Technical and fundamental analysis
+- Real-time market status
+- Interactive charts with multiple timeframes
 
-### 1. Get Your API Key (2 minutes)
-1. Visit [Alpha Vantage](https://www.alphavantage.co/support/#api-key)
-2. Click "Get Your Free API Key"
-3. Fill out the form and copy your key
+### 📰 News Center
+- Real-time financial news
+- Stock-specific news filtering
+- Sentiment analysis
+- News categorization and search
 
-### 2. Configure Environment
-Edit `.env` file in the project root:
-```env
-ALPHA_VANTAGE_API_KEY=YOUR_ACTUAL_API_KEY_HERE
-```
+### 💼 Portfolio Management
+- Portfolio tracking and analytics
+- Multiple watchlists
+- Performance metrics
+- Real-time updates
+- Portfolio allocation visualization
 
-### 3. Install & Run
-```bash
-# Install dependencies
-npm install
-cd server && npm install && cd ..
+### 👤 User Management
+- Secure authentication (JWT)
+- User profiles and settings
+- Session management
+- Role-based access control
 
-# Start backend server
-cd server && npm run dev
+### 🛡️ Security & Performance
+- Rate limiting and API protection
+- CORS security
+- Input validation and sanitization
+- Comprehensive error handling
+- Professional logging with Winston
+- Compression and caching
 
-# Start frontend (new terminal)
-npm start
-```
-
-### 4. View Dashboard
-Open [http://localhost:3000](http://localhost:3000) in your browser
+### 🎨 Professional UI/UX
+- Modern, responsive design
+- Mobile-first approach
+- Smooth animations
+- Professional color scheme
+- Intuitive navigation
+- Loading states and error handling
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React 19** - Modern React with hooks
-- **Tailwind CSS** - Utility-first CSS framework
-- **Axios** - HTTP client for API calls
-- **Responsive Design** - Mobile-first approach
+- **React 18** - Modern UI framework
+- **React Router** - Client-side routing
+- **React Query** - Server state management
+- **Tailwind CSS** - Utility-first CSS
+- **Recharts** - Data visualization
+- **Socket.io Client** - Real-time communication
+- **Lucide React** - Icon library
+- **Framer Motion** - Animations
 
 ### Backend
-- **Node.js** - JavaScript runtime
+- **Node.js** - Runtime environment
 - **Express.js** - Web framework
-- **Axios** - HTTP client for external APIs
-- **CORS** - Cross-origin resource sharing
+- **PostgreSQL** - Database
+- **Socket.io** - Real-time communication
+- **JWT** - Authentication
+- **Winston** - Logging
+- **Helmet** - Security headers
+- **Rate Limiting** - API protection
 
 ### APIs
-- **Alpha Vantage** - Real-time stock data
-- **Rate Limiting** - 5 calls per minute (free tier)
-- **Smart Caching** - 1-minute cache for performance
+- **Polygon API** - Real-time stock data
+- **WebSocket** - Live updates
+- **RESTful API** - Data endpoints
 
-## 📊 API Endpoints
+## 📦 Installation
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/stocks/live` | GET | Single stock data |
-| `/api/stocks/batch` | GET | Multiple stocks data |
-| `/api/stocks/cache` | GET | Cache status |
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+- PostgreSQL (v12 or higher)
 
-### Example Usage
-```bash
-# Get single stock
-curl "http://localhost:3001/api/stocks/live?symbol=AAPL"
+### Quick Start
 
-# Get multiple stocks
-curl "http://localhost:3001/api/stocks/batch?symbols=AAPL,GOOGL,MSFT"
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd stocksearch
+   ```
 
-# Check cache status
-curl "http://localhost:3001/api/stocks/cache"
-```
+2. **Install dependencies**
+   ```bash
+   # Install frontend dependencies
+   npm install --legacy-peer-deps
+   
+   # Install backend dependencies
+   cd server
+   npm install --legacy-peer-deps
+   cd ..
+   ```
 
-## 🎨 UI Features
+3. **Environment Setup**
+   ```bash
+   # Create .env file
+   cp .env.example .env
+   
+   # Edit .env with your configuration
+   nano .env
+   ```
 
-### Stock Cards
-- **Symbol & Price** - Clear, prominent display
-- **Change Indicators** - Green/red color coding
-- **Volume & Date** - Complete market information
-- **Hover Effects** - Interactive user experience
+4. **Database Setup**
+   ```bash
+   # Create PostgreSQL database
+   createdb stocksearch
+   
+   # Run database migrations
+   psql -d stocksearch -f server/config/database.sql
+   ```
 
-### Dashboard Controls
-- **Search Bar** - Filter stocks by symbol
-- **Auto-refresh Toggle** - Enable/disable automatic updates
-- **Manual Refresh** - Instant data update button
-- **Pagination** - Navigate through stock pages
+5. **API Key Setup**
+   - Get a free API key from [Polygon.io](https://polygon.io/)
+   - Add it to your `.env` file:
+     ```
+     POLYGON_API_KEY=your_api_key_here
+     ```
 
-### Status Indicators
-- **API Status** - Real-time connection status
-- **Loading States** - Smooth loading animations
-- **Error Handling** - Clear error messages
-- **Success Feedback** - Confirmation of actions
+6. **Start the application**
+   ```bash
+   # Start both frontend and backend
+   npm run dev
+   
+   # Or start separately
+   npm run client  # Frontend only
+   npm run server  # Backend only
+   ```
 
 ## 🔧 Configuration
 
 ### Environment Variables
-```env
-# Required
-ALPHA_VANTAGE_API_KEY=your_api_key_here
 
-# Optional
+Create a `.env` file in the root directory:
+
+```env
+# Database
+DATABASE_URL=postgresql://username:password@localhost:5432/stocksearch
+
+# API Keys
+POLYGON_API_KEY=your_polygon_api_key_here
+
+# Server
 PORT=3001
 NODE_ENV=development
+
+# Client
+REACT_APP_API_URL=http://localhost:3001/api
+REACT_APP_SOCKET_URL=http://localhost:3001
 ```
 
-### API Limits
-- **Free Tier**: 5 API calls per minute
-- **Cache Duration**: 1 minute
-- **Rate Limiting**: 12 seconds between calls
-- **Timeout**: 10 seconds per request
+### Database Schema
 
-## 📱 Mobile Support
+The application uses PostgreSQL with the following schema:
 
-The dashboard is fully responsive and optimized for:
-- 📱 **Mobile phones** (320px+)
-- 📱 **Tablets** (768px+)
-- 💻 **Desktop** (1024px+)
-- 🖥️ **Large screens** (1440px+)
+```sql
+-- Users table
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(50) UNIQUE NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  password_hash VARCHAR(255) NOT NULL,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Watchlists table
+CREATE TABLE watchlists (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES users(id),
+  name VARCHAR(100) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Watchlist items table
+CREATE TABLE watchlist_items (
+  id SERIAL PRIMARY KEY,
+  watchlist_id INTEGER REFERENCES watchlists(id),
+  symbol VARCHAR(10) NOT NULL,
+  added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+## 📡 API Endpoints
+
+### Stock Data
+- `GET /api/stocks/:symbol` - Get single stock data
+- `GET /api/stocks/batch?symbols=AAPL,GOOGL` - Get batch stock data
+- `GET /api/stocks/:symbol/chart` - Get chart data
+- `GET /api/stocks/:symbol/details` - Get stock details
+- `GET /api/stocks/:symbol/news` - Get stock news
+- `GET /api/stocks/market` - Get market data
+- `GET /api/stocks/cache` - Get cache status
+
+### Authentication
+- `POST /api/auth/register` - User registration
+- `POST /api/auth/login` - User login
+- `POST /api/auth/logout` - User logout
+- `GET /api/auth/profile` - Get user profile
+
+### Portfolio
+- `GET /api/portfolio` - Get user portfolio
+- `POST /api/portfolio/add` - Add stock to portfolio
+- `DELETE /api/portfolio/remove` - Remove stock from portfolio
+
+### Watchlists
+- `GET /api/watchlists` - Get user watchlists
+- `POST /api/watchlists` - Create watchlist
+- `POST /api/watchlists/:id/add` - Add stock to watchlist
+- `DELETE /api/watchlists/:id/remove` - Remove stock from watchlist
+
+## 🎯 Usage Guide
+
+### Getting Started
+
+1. **Access the Application**
+   - Open http://localhost:3000 in your browser
+   - You'll see the main dashboard with live stock data
+
+2. **Search for Stocks**
+   - Use the search bar to find specific stocks
+   - Enter symbols like AAPL, GOOGL, MSFT, etc.
+
+3. **View Market Data**
+   - Click on stock cards to view detailed analysis
+   - Navigate to "Market Overview" for sector performance
+   - Check "News Center" for latest financial news
+
+4. **Manage Portfolio**
+   - Go to "Portfolio Tracker" to manage your investments
+   - Add stocks with purchase price and shares
+   - Track performance and gains/losses
+
+5. **Create Watchlists**
+   - Use "Watchlist Manager" to create custom lists
+   - Add stocks you want to monitor
+   - Get real-time updates
+
+### Real-Time Features
+
+- **Live Updates**: Stock prices update automatically every 30 seconds
+- **WebSocket Connection**: Real-time data streaming
+- **Notifications**: Get alerts for price changes and news
+- **Interactive Charts**: Zoom, pan, and analyze historical data
+
+## 🧪 Testing
+
+### API Testing
+```bash
+# Test health endpoint
+curl http://localhost:3001
+
+# Test stock data
+curl http://localhost:3001/api/stocks/AAPL
+
+# Test batch stocks
+curl "http://localhost:3001/api/stocks/batch?symbols=AAPL,GOOGL,MSFT"
+```
+
+### Frontend Testing
+```bash
+# Run tests
+npm test
+
+# Run tests with coverage
+npm test -- --coverage
+```
 
 ## 🚀 Deployment
 
-### Frontend (Vercel/Netlify)
+### Production Build
 ```bash
+# Build frontend
 npm run build
-# Deploy the build folder
+
+# Build backend
+cd server && npm run build
+
+# Start production server
+npm start
 ```
 
-### Backend (Heroku/Railway)
-```bash
-# Set environment variables
-ALPHA_VANTAGE_API_KEY=your_key_here
-
-# Deploy server folder
+### Environment Variables for Production
+```env
+NODE_ENV=production
+DATABASE_URL=your_production_database_url
+POLYGON_API_KEY=your_production_api_key
+PORT=3001
 ```
 
-## 🐛 Troubleshooting
+## 📊 Performance Features
 
-### Common Issues
+- **Caching**: Intelligent caching reduces API calls
+- **Rate Limiting**: Prevents API abuse
+- **Compression**: Gzip compression for faster loading
+- **CDN Ready**: Static assets optimized for CDN
+- **Lazy Loading**: Components load on demand
+- **Virtual Scrolling**: Handles large datasets efficiently
 
-**"API key not configured"**
-- Check your `.env` file
-- Ensure API key is correct
-- Restart the server
+## 🔒 Security Features
 
-**"Rate limit exceeded"**
-- Wait 1 minute before retrying
-- Reduce number of simultaneous requests
-- Check API usage limits
-
-**"Server connection error"**
-- Ensure backend is running on port 3001
-- Check for port conflicts
-- Verify CORS configuration
-
-**"Loading forever"**
-- Check browser console for errors
-- Verify API key is valid
-- Check network connectivity
-
-### Debug Mode
-Enable debug logging in the browser console to see detailed API calls and responses.
-
-## 📈 Performance
-
-- **Initial Load**: < 2 seconds
-- **API Response**: < 1 second (cached)
-- **Auto-refresh**: Every 60 seconds
-- **Search**: Instant filtering
-- **Pagination**: Smooth navigation
+- **JWT Authentication**: Secure token-based auth
+- **Rate Limiting**: API protection against abuse
+- **Input Validation**: Sanitized user inputs
+- **CORS Protection**: Cross-origin request security
+- **Helmet Headers**: Security headers
+- **SQL Injection Protection**: Parameterized queries
 
 ## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Test thoroughly
+4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+## 🆘 Support
 
-- [Alpha Vantage](https://www.alphavantage.co/) for providing the stock data API
-- [Tailwind CSS](https://tailwindcss.com/) for the beautiful UI framework
-- [React](https://reactjs.org/) for the amazing frontend framework
+If you encounter any issues:
 
-## 📞 Support
+1. Check the console for error messages
+2. Verify your API key is valid
+3. Ensure PostgreSQL is running
+4. Check the logs in the `logs/` directory
 
-If you encounter any issues or have questions:
+## 🎉 Success!
 
-1. Check the [Troubleshooting](#-troubleshooting) section
-2. Review the [API Setup Guide](API_SETUP.md)
-3. Open an issue on GitHub
+Your Stock Search Pro platform is now running with:
+
+✅ **Real-time stock data** from Polygon API  
+✅ **Interactive charts** with technical indicators  
+✅ **Portfolio management** with performance tracking  
+✅ **News aggregation** with sentiment analysis  
+✅ **User authentication** and session management  
+✅ **Real-time notifications** and updates  
+✅ **Professional UI/UX** design  
+✅ **Security features** and rate limiting  
+✅ **Error handling** and logging  
+✅ **Responsive design** for all devices  
+
+**🎯 This is now a complete, production-ready stock market platform!**
 
 ---
 
-**Ready to see real-time stock data? Get your API key and start trading! 🚀**
+**Built with ❤️ using modern web technologies**

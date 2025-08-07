@@ -1,0 +1,3 @@
+{"level":"info","message":"Portfolio fetched for user 1","timestamp":"2025-08-01T18:06:04.311Z"}
+{"level":"info","message":"Stock bought: AAPL - 5 shares at $180","timestamp":"2025-08-01T18:06:09.234Z"}
+{"level":"info","message":"Stock sold: AAPL - 3 shares at $175","timestamp":"2025-08-01T18:06:14.444Z"}

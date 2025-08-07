@@ -9,19 +9,32 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.11.0",
     "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-hot-toast": "^2.4.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
     "recharts": "^3.1.0",
+    "socket.io-client": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run start\" \"cd server && npm run dev\"",
+    "server": "cd server && npm run dev",
+    "client": "npm run start",
+    "build:prod": "npm run build && cd server && npm run build",
+    "deploy": "npm run build:prod && npm run start:prod"
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +56,16 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "nodemon": "^3.0.2",
     "postcss": "^8.4.31",
+    "prettier": "^3.1.1",
     "tailwindcss": "^3.4.0"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }

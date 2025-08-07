@@ -25,7 +25,7 @@ const allStocks = [
   "DDOG", "SNOW", "FSLY", "TEAM", "WDAY", "ZS", "MELI", "PINS", "DKNG", "ROST"
 ];
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 8; // Reduced to minimize API calls
 
 export default function Stockcollection() {
   const [stocks, setStocks] = useState([]);
@@ -66,14 +66,21 @@ export default function Stockcollection() {
 
     try {
       const res = await axios.get(`http://localhost:3001/api/stocks/batch?symbols=${symbolsString}`, {
-        timeout: 15000
+        timeout: 20000 // Increased timeout
       });
       
       if (res.data && Array.isArray(res.data)) {
-        setStocks(res.data);
+        // Filter out error responses and show them gracefully
+        const validStocks = res.data.filter(stock => !stock.error);
+        const errorStocks = res.data.filter(stock => stock.error);
+        
+        setStocks(res.data); // Keep all stocks to show errors
         setLastUpdated(new Date());
         
-        console.log(`Loaded ${res.data.length} stocks with real-time data`);
+        console.log(`Loaded ${validStocks.length} stocks with real-time data`);
+        if (errorStocks.length > 0) {
+          console.log(`${errorStocks.length} stocks had errors:`, errorStocks.map(s => s.symbol));
+        }
       } else {
         throw new Error('Invalid response format');
       }
@@ -128,7 +135,7 @@ export default function Stockcollection() {
     if (autoRefresh && apiStatus === 'configured') {
       interval = setInterval(() => {
         fetchStocksForPage();
-      }, 30000); // 30 seconds refresh for real-time data
+      }, 60000); // 60 seconds refresh to reduce API calls
     }
     return () => clearInterval(interval);
   }, [autoRefresh, fetchStocksForPage, apiStatus]);
@@ -385,7 +392,7 @@ export default function Stockcollection() {
                   className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                 />
                 <label htmlFor="autoRefresh" className="text-sm text-gray-700">
-                  Auto-refresh (30s)
+                  Auto-refresh (60s)
                 </label>
               </div>
               {lastUpdated && (
