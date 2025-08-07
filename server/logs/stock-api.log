@@ -158,3 +158,506 @@
 {"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-01T19:36:27.390Z"}
 {"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-01T19:36:27.946Z"}
 {"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-01T19:41:40.591Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:02:36.500Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:03:32.668Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:03:46.282Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:04:19.685Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:05:18.986Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:05:54.967Z"}
+{"level":"info","message":"Batch stock data fetched for 1 symbols","timestamp":"2025-08-07T13:05:54.967Z"}
+{"level":"error","message":"Error fetching stock data:","timestamp":"2025-08-07T13:05:55.064Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:46.197Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:46.198Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:46.199Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:46.218Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:46.220Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:46.225Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:46.232Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:46.236Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:46.236Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:46.389Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:46.390Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:46.390Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:46.391Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:46.392Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:46.395Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:46.395Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:46.395Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:46.395Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:46.544Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:46.546Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:46.546Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:46.546Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:46.547Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:46.548Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:46.548Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:46.550Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:46.550Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:46.697Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:46.697Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:46.698Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:46.699Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:46.700Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:46.703Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:46.705Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:46.705Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:46.705Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:46.853Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:46.853Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:46.854Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:46.855Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:46.855Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:46.858Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:46.859Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:46.859Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:46.859Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:47.005Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:47.007Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:47.008Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:47.009Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:47.011Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:47.012Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:47.013Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:47.014Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:47.014Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:47.160Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:47.160Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:47.161Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:47.162Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:47.163Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:47.165Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:47.166Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:47.167Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:47.167Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:47.314Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:47.315Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:47.316Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:47.317Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:47.319Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:47.320Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:47.320Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:48.315Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:48.315Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:48.552Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:48.552Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:48.553Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:48.553Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:48.554Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:48.557Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:48.559Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:48.559Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:48.559Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:48.704Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:48.705Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:48.706Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:48.706Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:48.707Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:48.710Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:48.711Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:48.711Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:48.711Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:48.857Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:48.859Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:48.859Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:48.861Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:48.861Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:48.863Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:48.865Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:48.867Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:48.867Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:49.012Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:49.012Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:49.013Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:49.014Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:49.016Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:49.017Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:49.018Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:49.020Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:49.020Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:49.219Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:49.220Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:49.221Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:49.222Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:49.223Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:49.226Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:49.226Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:49.227Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:49.228Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:49.373Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:49.373Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:49.374Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:49.376Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:49.376Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:49.380Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:49.380Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:49.381Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:49.381Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:49.530Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:49.530Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:49.531Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:49.531Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:49.532Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:49.534Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:49.536Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:50.541Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:50.541Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:50.686Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:50.687Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:50.689Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:50.690Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:50.691Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:50.692Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:50.693Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:50.694Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:50.694Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:50.838Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:50.839Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:50.844Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:50.844Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:50.845Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:50.845Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:50.846Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:50.847Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:50.847Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:50.989Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:50.992Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:50.992Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:50.994Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:50.994Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:50.996Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:50.996Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:50.998Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:50.998Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:51.143Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:51.143Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:51.143Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:51.144Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:51.146Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:51.148Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:51.148Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:51.149Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:51.149Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:51.293Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:51.296Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:51.296Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:51.297Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:51.299Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:51.300Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:51.301Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:51.302Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:51.302Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:51.446Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:51.447Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:51.448Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:51.449Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:51.450Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:51.453Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:51.453Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:51.456Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:51.456Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:51.599Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:51.600Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:51.601Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:51.603Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:51.606Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:51.607Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:51.607Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:51.609Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:51.609Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:51.752Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:51.753Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:51.754Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:51.755Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:51.756Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:51.759Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:51.759Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:51.759Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:51.759Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:51.903Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:51.904Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:51.906Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:51.908Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:51.909Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:51.909Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:51.910Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:51.911Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:51.911Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.056Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.060Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.061Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.061Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.061Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.064Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.066Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.067Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.067Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.211Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.211Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.212Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.214Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.215Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.217Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.217Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.221Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.221Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.367Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.367Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.368Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.369Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.370Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.372Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.373Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.374Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.374Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.519Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.519Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.521Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.521Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.524Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.525Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.526Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.528Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.528Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.672Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.674Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.674Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.675Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.676Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.678Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.678Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.680Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.680Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.824Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.824Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.825Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.826Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.827Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.829Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.830Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.832Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.832Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:52.978Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:52.979Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:52.980Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:52.981Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:52.982Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:52.982Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:52.983Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:52.989Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:52.989Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:53.130Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:53.132Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:53.135Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:53.137Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:53.138Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:53.138Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:53.139Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:53.139Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:53.139Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:53.283Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:53.284Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:53.286Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:53.287Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:53.287Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:53.290Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:53.291Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:53.291Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:53.291Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:53.438Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:53.439Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:53.439Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:53.440Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:53.441Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:53.444Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:53.444Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:53.445Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:53.445Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:53.589Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:53.590Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:53.590Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:53.592Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:53.592Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:53.595Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:53.597Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:53.599Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:53.599Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:53.742Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:53.743Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:53.744Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:53.745Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:53.745Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:53.748Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:53.749Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:53.750Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:53.750Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:53.894Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:53.895Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:53.896Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:53.897Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:53.897Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:53.899Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:53.900Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:53.902Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:53.902Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.046Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.047Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.048Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.050Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.050Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.053Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.054Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.055Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.055Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.201Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.202Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.203Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.204Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.205Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.207Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.207Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.209Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.209Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.353Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.354Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.354Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.357Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.358Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.359Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.359Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.360Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.360Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.503Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.504Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.505Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.507Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.508Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.509Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.510Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.512Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.512Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.656Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.657Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.658Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.659Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.660Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.662Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.663Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.665Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.665Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.810Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.812Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.812Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.812Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.814Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.816Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.817Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.817Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.817Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:54.963Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:54.964Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:54.964Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:54.965Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:54.966Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:54.970Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:54.970Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:54.970Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:54.971Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:55.615Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:55.616Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:55.618Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:55.619Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:55.619Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:55.623Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:55.625Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:55.627Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:55.627Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:56.273Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:56.274Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:56.275Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:56.276Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:56.276Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:56.279Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:56.281Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:56.281Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:56.281Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:56.949Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:56.951Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:56.952Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:56.953Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:56.954Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:56.957Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:56.957Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:56.958Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:56.958Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:57.605Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:57.608Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:57.608Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:57.608Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:57.608Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:57.612Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:57.612Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:57.613Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:57.614Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:58.266Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:58.267Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:58.268Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:58.270Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:58.271Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:58.272Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:58.273Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:58.274Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:58.274Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:58.924Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:58.925Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:58.926Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:58.926Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:58.927Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:58.930Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:58.931Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:58.931Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:58.931Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:06:59.598Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:06:59.598Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:06:59.599Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:06:59.600Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:06:59.601Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:06:59.603Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:06:59.604Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:06:59.604Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:06:59.604Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:07:00.314Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:07:00.315Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:07:00.316Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:07:00.318Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:07:00.320Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:07:00.320Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:07:00.321Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:07:00.321Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:07:00.321Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:07:00.967Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:07:00.969Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:07:00.969Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:07:00.971Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:07:00.972Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:07:00.973Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:07:00.974Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:07:00.976Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:07:00.976Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:07:01.644Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:07:01.645Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:07:01.645Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:07:01.646Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:07:01.647Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:07:01.650Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:07:01.651Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:07:01.654Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:07:01.654Z"}
+{"level":"error","message":"Error fetching data for NFLX:","timestamp":"2025-08-07T13:07:02.298Z"}
+{"level":"error","message":"Error fetching data for NVDA:","timestamp":"2025-08-07T13:07:02.299Z"}
+{"level":"error","message":"Error fetching data for META:","timestamp":"2025-08-07T13:07:02.301Z"}
+{"level":"error","message":"Error fetching data for AMZN:","timestamp":"2025-08-07T13:07:02.302Z"}
+{"level":"error","message":"Error fetching data for TSLA:","timestamp":"2025-08-07T13:07:02.302Z"}
+{"level":"error","message":"Error fetching data for GOOGL:","timestamp":"2025-08-07T13:07:02.307Z"}
+{"level":"error","message":"Error fetching data for AAPL:","timestamp":"2025-08-07T13:07:02.307Z"}
+{"level":"error","message":"Error fetching data for MSFT:","timestamp":"2025-08-07T13:07:02.308Z"}
+{"level":"info","message":"Batch stock data fetched for 8 symbols","timestamp":"2025-08-07T13:07:02.308Z"}

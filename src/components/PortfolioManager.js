@@ -123,7 +123,7 @@ const PortfolioManager = () => {
         if (!searchSymbol.trim()) return;
         
         try {
-            const response = await axios.get(`/api/stocks/live?symbol=${searchSymbol.toUpperCase()}`);
+            const response = await axios.get(`/api/stocks/${searchSymbol.toUpperCase()}`);
             setSelectedStock(response.data);
             setPrice(response.data.price);
             setShowBuyModal(true);

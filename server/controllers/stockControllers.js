@@ -1,3 +1,4 @@
+require('dotenv').config();
 const axios = require('axios');
 const { Pool } = require('pg');
 const winston = require('winston');
@@ -56,6 +57,14 @@ const getStockData = async (req, res) => {
   try {
     const { symbol } = req.params;
     const upperSymbol = symbol.toUpperCase();
+
+    // Check if API key is configured
+    if (!POLYGON_API_KEY) {
+      return res.status(403).json({ 
+        error: 'API key not configured',
+        message: 'Please configure POLYGON_API_KEY in your .env file'
+      });
+    }
 
     // Check cache first
     const cached = stockCache.get(upperSymbol);
@@ -128,6 +137,14 @@ const getBatchStocks = async (req, res) => {
     
     if (!symbols) {
       return res.status(400).json({ error: 'Symbols parameter is required' });
+    }
+
+    // Check if API key is configured
+    if (!POLYGON_API_KEY) {
+      return res.status(403).json({ 
+        error: 'API key not configured',
+        message: 'Please configure POLYGON_API_KEY in your .env file'
+      });
     }
 
     const symbolArray = symbols.split(',').map(s => s.trim().toUpperCase()).slice(0, 20);

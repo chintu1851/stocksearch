@@ -5,7 +5,7 @@ async function testAPI() {
     console.log('Testing API connection...');
     
     // Test single stock
-    const singleResponse = await axios.get('http://localhost:3001/api/stocks/live?symbol=AAPL');
+    const singleResponse = await axios.get('http://localhost:3001/api/stocks/AAPL');
     console.log('Single stock response:', singleResponse.data);
     
     // Test batch stocks
